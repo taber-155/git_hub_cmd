@@ -1,0 +1,53 @@
+#your git commands
+
+##git config commands
+
+git --version
+git config --global user.name "taber-155"
+git config  --global user.email "tabershareef@gmail.com"
+C:\Users\Taber Shareef> git config --list
+
+##git on VS CODE terminal
+
+Git clone : to get the your file from GitHub to your local machine
+git status : to check the status
+git add : git add will add the new content and keep it ready to commit
+git commit : git commit will confirm the changes
+git push origin main : to push the code into GitHub from local machine
+git init meaning creating a git file 
+git remote add origin link : this is to push our new repos to GitHub
+git remote -v : to check our origin link if it is created
+git push -u origin main to make the changes
+
+Branch commands
+
+git branch : to check the branch
+git branch -m main:  to make it to main
+git checkout to swap the branch
+git check -b to create a new one
+git branch -d to to delete it
+
+git branch merger
+git diff
+git merge
+git pull origin main, what feature we did that thing to pull that from remote to local
+
+git log
+
+
+##git changes
+
+Untracked - git is not tracking
+modified :  we changed the file -  commit then modified
+staged :  making the file ready - add the staged
+unmodiefied: nothing is changed
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/taber-155/bhncssfile.git
+git push -u origin main
